@@ -14,15 +14,6 @@
 * **backend:** Contém o servidor Node.js com as rotas da API.
 * **(outros diretórios, se houver)**
 
-**Instalação:**
-1. Clone este repositório: `git clone https://github.com/seu_usuario/seu_repositorio.git`
-2. Instale as dependências:
-   * Frontend: `cd frontend && npm install`
-   * Backend: `cd backend && npm install`
-3. Inicie o servidor de desenvolvimento:
-   * Frontend: `cd frontend && npm start`
-   * Backend: `cd backend && npm start`
-
 **Como usar:**
 * **Frontend:** Interaja com a aplicação através do navegador.
 * **Backend:** Utilize as rotas da API para realizar operações como cadastro, login, busca de produtos, etc.
