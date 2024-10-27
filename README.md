@@ -9,9 +9,6 @@ Arrume esse readme de acordo com as alterações feitas:
 * **Frontend:** React, Vite
 * **Outras dependências:** axios, cors, react-dom, react-router-dom
 
-**Estrutura do projeto:**
-* **frontend:** Contém o código-fonte da aplicação React.
-
 **Como usar:**
 * **Frontend:** Interaja com a aplicação através do navegador.
 
