@@ -24,7 +24,7 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  padding: 181px 280px;
+  padding: 212px 280px;
   background-color: rgb(20, 20, 20);
   border-radius: 40px;
   border-top-right-radius: 0;
@@ -41,6 +41,14 @@ body {
 .logo {
   font-size: 4rem;
   margin-bottom: 10px;
+}
+
+.inputs {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 h4 {
@@ -63,13 +71,6 @@ h4 {
   color: #ffffff;
   margin-left: 10px;
   margin-bottom: 12px;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 1.2rem;
-  margin-bottom: 5px;
 }
 
 form {

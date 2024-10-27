@@ -52,7 +52,7 @@ function Login() {
                     <h1 className="login-titulo">Login</h1>
                     <br />
                     <form onSubmit={handleSubmit}>
-                        <h3>E-mail</h3>
+                        <h3 className="inputs">E-mail</h3>
                         <input
                             type="email"
                             name="email"
@@ -62,7 +62,7 @@ function Login() {
                             placeholder="Digite seu e-mail"
                             required
                         />
-                        <h3>Senha</h3>
+                        <h3 className="inputs">Senha</h3>
                         <input
                             type="password"
                             name="senha"
