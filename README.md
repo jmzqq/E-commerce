@@ -1,3 +1,5 @@
+Arrume esse readme de acordo com as alterações feitas:
+
 # E-commerce Modelo com React e Vite
 
 **Descrição:**
@@ -5,30 +7,21 @@
 
 **Tecnologias:**
 * **Frontend:** React, Vite
-* **Backend:** Node.js, Express
-* **Banco de dados:** (Especificar se está utilizando algum, como MongoDB, PostgreSQL, etc.)
 * **Outras dependências:** axios, cors, react-dom, react-router-dom
 
 **Estrutura do projeto:**
 * **frontend:** Contém o código-fonte da aplicação React.
-* **backend:** Contém o servidor Node.js com as rotas da API.
-* **(outros diretórios, se houver)**
 
 **Como usar:**
 * **Frontend:** Interaja com a aplicação através do navegador.
-* **Backend:** Utilize as rotas da API para realizar operações como cadastro, login, busca de produtos, etc.
 
 **Contribuições:**
-Contribuições são bem-vindas! Abra um issue para discutir novas funcionalidades ou correções de bugs.
-
-**Licença:**
-(Especificar a licença utilizada, por exemplo, MIT)
+Contribuições são bem-vindas!
 
 **Próximos passos:**
-* Criar página home.
-* Fazer estrutura base da página.
+* Criar página about.
+* Fazer estrutura base da página home e about.
 * Implementar funcionalidades de carrinho de compras.
-* Integrar um gateway de pagamento.
 * Melhorar a interface do usuário.
 
 **Observações:**
@@ -37,7 +30,8 @@ Contribuições são bem-vindas! Abra um issue para discutir novas funcionalidad
 
 ## Como executar o projeto
 1. **Clone o repositório:**
-   ```bash
+   
+bash
    git clone git@github.com:jmzqq/E-commerce.git
 2. **Abra no Visual Studio**
 3. **Abra o console, pode ser o Bash ou PowerShell**
