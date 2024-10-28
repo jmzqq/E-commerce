@@ -11,10 +11,11 @@ body {
 .background {
   font-family: sans-serif;
   height: 100vh;
+  min-width: 100vw;
   margin: 0;
   background-color: #afafaf;
   background-image: url(assets/model.jpg);
-  background-size: 920px auto;
+  background-size: 1050px auto;
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -24,7 +25,7 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  padding: 212px 280px;
+  padding: 230px 280px;
   background-color: rgb(20, 20, 20);
   border-radius: 40px;
   border-top-right-radius: 0;
@@ -120,3 +121,42 @@ input {
   transform: translateY(2px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+@media only screen and (max-width: 768px) {
+  .background {
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  }
+
+  .login-titulo {
+    font-size: 2rem;
+  }
+
+  .sysshop {
+    font-size: 3rem;
+  }
+
+  input {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .login-botao {
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
+}
+
