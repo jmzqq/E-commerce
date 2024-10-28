@@ -29,7 +29,7 @@ Contribuições são bem-vindas!
 1. **Clone o repositório:**
    
 bash
-   git clone git@github.com:jmzqq/E-commerce.git
+1. **git clone git@github.com:jmzqq/E-commerce.git**
 2. **Abra no Visual Studio**
 3. **Abra o console, pode ser o Bash ou PowerShell**
 4. **Digite "npm i", para instalar as dependências**
