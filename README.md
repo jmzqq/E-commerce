@@ -1,5 +1,3 @@
-Arrume esse readme de acordo com as alterações feitas:
-
 # E-commerce Modelo com React e Vite
 
 **Descrição:**
@@ -11,15 +9,6 @@ Arrume esse readme de acordo com as alterações feitas:
 
 **Como usar:**
 * **Frontend:** Interaja com a aplicação através do navegador.
-
-**Contribuições:**
-Contribuições são bem-vindas!
-
-**Próximos passos:**
-* Criar página about.
-* Fazer estrutura base da página home e about.
-* Implementar funcionalidades de carrinho de compras.
-* Melhorar a interface do usuário.
 
 **Observações:**
 * **Tela de login:** A tela de login é reutilizada do projeto https://github.com/jmzqq/Login.
