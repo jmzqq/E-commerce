@@ -5,7 +5,7 @@
 
 **Tecnologias:**
 * **Frontend:** React, Vite
-* **Outras dependências:** axios, cors, react-dom, react-router-dom
+* **Outras dependências:** axios, cors, react-dom, react-router-dom, bootstrap, express
 
 **Como usar:**
 * **Frontend:** Interaja com a aplicação através do navegador.
