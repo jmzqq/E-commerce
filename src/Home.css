@@ -1,3 +1,18 @@
+body {
+    overflow-y: auto;
+  }
+
+ .home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+
 .nav-link {
     transition: color 0.3s, transform 0.3s;
 }
@@ -20,6 +35,32 @@
 }
 
 .navbar {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra da navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.product-card {
+    border: none;
+    transition: transform 0.3s ease;
+  }
+
+.title-1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+.product-card:hover img {
+    transform: scale(1.1);
+  }
+  
+.product-card .card-text {
+    font-size: 1.25rem;
+  }
+
+
 
