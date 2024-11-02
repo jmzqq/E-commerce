@@ -25,101 +25,27 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  padding: 230px 280px;
+  padding: 200px 260px;
   background-color: rgb(20, 20, 20);
   border-radius: 40px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  transform: scale(calc(100vh / 500px));
+  height: 100%;
 }
 
-.login {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo {
-  font-size: 4rem;
-  margin-bottom: 10px;
-}
-
-.inputs {
+.form-label {
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 1.4rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
+  font-size: 1.25rem;
+} 
 
-h4 {
-  font-family: 'Montserrat', sans-serif;
-  display: flex;
-  align-items: center;
-}
-
-.login-titulo {
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 2.5rem;
-  margin: 0;
-  text-align: center;
-  transform: scale(1.2);
-}
-
-.sysshop {
-  font-size: 4rem;
-  color: #ffffff;
-  margin-left: 10px;
-  margin-bottom: 12px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.form-control {
+  width: 2000px;
   max-width: 350px;
 }
 
-input {
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
-  font-size: 1.2rem;
-  width: 120%;
-  max-width: none;
-  box-sizing: border-box;
-  margin-left: 0.5;
-}
-
-.login-botao {
-  font-family: 'Montserrat', sans-serif;
-  cursor: pointer;
-  background-color: #8c3f83;
-  color: white;
-  padding: 15px;
-  border-radius: 15px;
-  border: none;
-  width: 100%;
-  max-width: 350px;
-  font-size: 1.4rem;
-  margin-top: 20px;
-  margin-left: 10%;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.login-botao:hover {
-  background-color: #a15d8c;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-}
-
-.login-botao:active {
-  transform: translateY(2px);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
 }
 
 @media only screen and (max-width: 768px) {
@@ -141,24 +67,9 @@ input {
   justify-content: center;
   }
 
-  .login-titulo {
+.login-titulo {
     font-size: 2rem;
   }
-
-  .sysshop {
-    font-size: 3rem;
-  }
-
-  input {
-    width: 100%;
-    font-size: 1rem;
-  }
-
-  .login-botao {
-    font-size: 1.2rem;
-    margin-left: 0;
-  }
 }
-
 
 
