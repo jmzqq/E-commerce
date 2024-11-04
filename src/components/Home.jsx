@@ -185,6 +185,7 @@ function Home() {
                   src={product.src}
                   className="card-img-top img-fluid rounded-4"
                   alt={product.title}
+                  style={{ cursor: "pointer" }}
                 />
                 <div className="card-body text-center">
                   <h5 className="card-title">{product.title}</h5>
