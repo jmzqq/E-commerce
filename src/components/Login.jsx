@@ -23,7 +23,7 @@ function Login() {
 
         try {
             const URL = "http://localhost:5173/api/login";
-            await new Promise((resolve) => setTimeout(resolve, 100)); // Certifique-se de que esta URL está correta
+            await new Promise((resolve) => setTimeout(resolve, 100)); // certifique-se de que esta URL está correta, isso aqui é um atraso aritficial, esperando por uma requisição (para o futuro do projeto que pode ter um back-end)
             if (email && password) {
                 navigate('/home');
             }
