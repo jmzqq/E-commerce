@@ -36,8 +36,10 @@ function Login() {
     };
 
     return (
-        <div className="background">
-            <div className="login-container">
+        <div className="background ">
+            <div 
+            className="login-container d-flex position-absolute bg-dark h-100 end-0" 
+            style={{padding: 230}}>
                 <div className="login p-4 text-light " >
                     <div className="top-section">
                         <h4 className="d-flex align-items-center justify-content-end m-0" 
@@ -45,7 +47,7 @@ function Login() {
                             <img
                                 src="Src/assets/logo.svg"
                                 alt="logo"
-                                className="logo mb-0 me-1"
+                                className="logo mb-0 me-2"
                             />
                             <span className="sysshop mx-0 mb-2 display-4">Sys Shop</span>
                         </h4>
@@ -53,7 +55,10 @@ function Login() {
                     <h1 className="login-titulo text-center mb-4 display-5" style={{ fontFamily: 'Montserrat, sans-serif'}}>Login</h1>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-2 text-start">
-                            <label htmlFor="email" className="form-label d-flex flex-column" >E-mail</label>
+                            <label
+                             htmlFor="email" 
+                             className="form-label d-flex flex-column" 
+                             style={{fontFamily: "'Montserrat', 'sans-serif'", fontSize: 21}}>E-mail</label>
                             <div className="d-flex">
                                 <div className="col-8">
                                     <input
@@ -65,12 +70,20 @@ function Login() {
                                         onChange={(e) => setEmail(e.target.value)}
                                         placeholder="Digite seu e-mail"
                                         required
+                                        style={{
+                                            width: 2000, 
+                                            maxWidth: 350,
+                                            boxShadow: 'none'
+                                        }}
                                     />
                                 </div>
                             </div>
                         </div>
                         <div className="mb-2 text-start">
-                            <label htmlFor="senha" className="form-label d-flex flex-column">Senha</label>
+                            <label 
+                            htmlFor="senha" 
+                            className="form-label d-flex flex-column"
+                            style={{fontFamily: "'Montserrat', 'sans-serif'", fontSize: 21}}>Senha</label>
                             <div className="d-flex">
                                 <div className="col-8">
                                     <input
@@ -82,6 +95,11 @@ function Login() {
                                         onChange={(e) => setPassword(e.target.value)}
                                         placeholder="Digite sua senha"
                                         required
+                                        style={{
+                                            width: 2000, 
+                                            maxWidth: 350,
+                                            boxShadow: 'none'
+                                        }}
                                     />
                                 </div>
                             </div>

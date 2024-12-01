@@ -9,50 +9,24 @@ body {
 }
 
 .background {
-  font-family: sans-serif;
   height: 100vh;
-  min-width: 100vw;
-  margin: 0;
   background-color: #afafaf;
   background-image: url(assets/model.jpg);
-  background-size: 1050px auto;
+  background-size: 1000px;
   background-repeat: no-repeat;
-  background-position: left;
 }
 
-.login-container {
-  display: flex;
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 200px 260px;
-  background-color: rgb(20, 20, 20);
+.login-container{
   border-radius: 40px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  height: 100%;
-}
-
-.form-label {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.25rem;
-} 
-
-.form-control {
-  width: 2000px;
-  max-width: 350px;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  border-color: transparent;
 }
 
 @media only screen and (max-width: 768px) {
   .background {
-    background-size: cover;
-    background-position: center;
-    
+    background-color: rgb(33, 37, 41);
+    background-size: 0px;
+    ;
   }
 
 .login-container {
@@ -60,16 +34,26 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
-  max-width: 400px;
-  padding: 20px;
-  border-radius: 20px;
   justify-content: center;
+  border-radius: 0;
   }
 
+
 .login-titulo {
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: -140px
   }
+
+.logo{
+  width: 150px;
+  padding-right: 1.25rem;
+  position: relative;
+  top: -170px;
+  right: 85px
+}
+.sysshop {
+    font-size: 0rem; 
+}
 }
 
 
